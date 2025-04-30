@@ -1,6 +1,17 @@
 
 # Proximity Service
 
+## Application Preview
+
+![Proximity Service UI](./images/proximity-service-ui.png)
+
+The screenshot above demonstrates the main interface of the Proximity Service application:
+
+- **Left Panel**: Search controls allowing users to specify a radius and search for nearby businesses
+- **Center Panel**: List of businesses with details including name, type, address, and city
+- **Right Panel**: Interactive map showing business locations (green markers) and selected location (blue marker)
+- **Filter Controls**: At the top, users can filter businesses by country and city
+
 This repository contains a full-stack application for finding nearby businesses using a spatial indexing algorithm. The application consists of a Deno backend and a React frontend, with a powerful QuadTree implementation for efficient spatial queries.
 
 ## Table of Contents
